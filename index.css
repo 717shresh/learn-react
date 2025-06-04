@@ -29,3 +29,35 @@ nav > span {
     font-weight: 700;
     font-size: 1.4rem;
 }
+
+main {
+     padding: 60px 30px;
+     background-image: url(images/react-logo.png);
+     background-repeat: no-repeat;
+     background-position: right center;
+}
+
+main > h1 {
+    margin: 0px;
+    font-size: 2.4rem;
+}
+
+.fact-list {
+    margin-top: 46px;
+    max-width: 400px;
+
+}
+
+.fact-list > li {
+    /* margin-top: 10px;
+    font-size: 1.4rem; */
+    line-height: 19px;
+    padding-block: 10px;
+    /* letter-spacing: -0.01em;
+    color: #C2C2C2;*/
+} 
+
+.fact-list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
